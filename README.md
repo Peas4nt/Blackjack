@@ -1,5 +1,8 @@
 # Blackjack project
 
-# ToDo
+## 📌 To-Do List
 
-## Version 0.01
+### ✅ Version 0.01
+
+- [x] Generate math equations  
+- [x] Generate answer options  
