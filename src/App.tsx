@@ -1,13 +1,41 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
+import { Main } from './pages/Main';
+import { Math } from './pages/Math';
+import { Profile } from './pages/Profile';
+import { Header } from './components/Header';
+import { Route, Routes } from 'react-router-dom';
+import type { HeaderProps } from './types';
+
+
+const pages: HeaderProps[] = [
+  {
+    title: 'Main',
+    url: '/main',
+    page: <Main />
+  },
+  {
+    title: 'MathGame',
+    url: '/mathgame',
+    page: <Math />
+  },
+  // {
+  //   title: 'Profile',
+  //   url: '/profile',
+  //   page: <Profile />
+  // }
+];
 
 function App() {
 
   return (
     <>
-      <p className="container text-center mt-5">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Header data={pages} />
+      <Routes>
+        {pages.map((page, index) => (
+          <Route key={index} path={page.url} element={page.page} />
+        ))}
+      </Routes>
     </>
   )
 }

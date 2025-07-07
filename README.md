@@ -4,5 +4,7 @@
 
 ### ✅ Version 0.01
 
-- [x] Generate math equations  
-- [x] Generate answer options  
+- [] Come up with design colors
+- [] Make a header
+- [] Generate math equations
+- [] Generate answer options
