@@ -1,0 +1,27 @@
+.main-title-box {
+	position: relative;
+	width: 100%;
+	height: 60vh;
+	background-image: linear-gradient(to bottom, rgba(247, 247, 247, 0), #212529), 
+  url("https://www.mplgames.com/blog/wp-content/uploads/2022/06/how-to-play-blackjack.png");
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.overlay {
+	position: absolute;
+	inset: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-title {
+	color: #fff;
+	font-size: 4rem;
+	font-weight: bold;
+	text-align: center;
+}

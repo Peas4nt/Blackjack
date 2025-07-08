@@ -5,6 +5,6 @@
 ### ✅ Version 0.01
 
 - [] Come up with design colors
-- [] Make a header
+- [x] Make a header
 - [] Generate math equations
 - [] Generate answer options

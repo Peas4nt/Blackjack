@@ -11,7 +11,7 @@ import type { HeaderProps } from './types';
 const pages: HeaderProps[] = [
   {
     title: 'Main',
-    url: '/main',
+    url: '/',
     page: <Main />
   },
   {
