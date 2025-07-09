@@ -23,10 +23,10 @@ export const Header = ({ data }: { data: HeaderProps[] }) => {
 						<span className="navbar-toggler-icon"></span>
 					</button>
 					<div className="collapse navbar-collapse" id="navbarNav">
-						<ul className="navbar-nav col-lg-5 col-12 mx-auto">
+						<ul className="navbar-nav col-lg-6 col-12 mx-auto gap-2">
 							{data.map((item, index) => (
 								<li key={index} className="nav-item">
-									<Link className={`nav-link${location.pathname === item.url ? " active" : ""}`} to={item.url}>
+									<Link className={`nav-link btn btn-primary ${location.pathname === item.url ? "active" : ""}`} to={item.url}>
 										{item.title}
 									</Link>
 								</li>

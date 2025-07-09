@@ -10,7 +10,7 @@ import type { HeaderProps } from './types';
 
 const pages: HeaderProps[] = [
   {
-    title: 'Main',
+    title: 'Home',
     url: '/',
     page: <Main />
   },
@@ -19,11 +19,11 @@ const pages: HeaderProps[] = [
     url: '/mathgame',
     page: <Math />
   },
-  // {
-  //   title: 'Profile',
-  //   url: '/profile',
-  //   page: <Profile />
-  // }
+  {
+    title: 'Profile',
+    url: '/profile',
+    page: <Profile />
+  }
 ];
 
 function App() {

@@ -1,0 +1,18 @@
+:root {
+	--bs-body-bg: #000 !important;
+
+  
+	.btn-primary {
+    --bs-navbar-active-color: black !important;
+		--bs-nav-link-hover-color: black !important;
+
+		--bs-btn-active-bg: white !important;
+		--bs-btn-active-border-color: white !important;
+
+		--bs-btn-hover-color: rgb(0, 0, 0) !important;
+		--bs-btn-hover-bg: white !important;
+		--bs-btn-hover-border-color: white !important;
+
+    --bs-navbar-nav-link-padding-x: 1rem !important;
+	}
+}
